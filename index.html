@@ -1,0 +1,415 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Naman Raghuvanshi | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Machine Learning, Artificial Intelligence, Python, Java, C++, Data Analytics, Big Data, Team Management, AWS, AWS EC2, CUDA, React.js, React Native, Android, Data Structures, HTML, SQL, Node.js, Tensorflow, Computer Vision, javascript" />
+
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Naman Raghuvanshi | I am a passionate and skilled Computer Science Engineer specializing in software development, machine learning, and artificial intelligence. With extensive experience in building robust applications, dynamic web development, and innovative Android solutions, Naman leverages cutting-edge technologies to solve complex problems. Holding a Master of Science in Computer Science from Penn State University, Naman has a proven track record in developing automated systems, optimizing AI models, and leading technology projects. Connect with Naman to explore collaborations in AI, ML, IoT, and more." />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/profilepicture.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Naman Raghuvanshi | Naman Raghuvanshi is a passionate and skilled Computer Science Engineer specializing in software development, machine learning, and artificial intelligence. With extensive experience in building robust applications, dynamic web development, and innovative Android solutions, Naman leverages cutting-edge technologies to solve complex problems. Holding a Master of Science in Computer Science from Penn State University, Naman has a proven track record in developing automated systems, optimizing AI models, and leading technology projects. Connect with Naman to explore collaborations in AI, ML, IoT, and more." />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Naman Raghuvanshi is a dedicated and innovative Computer Science Engineer with expertise in software development, machine learning, and artificial intelligence. Currently pursuing a Master of Science in Computer Science at Penn State University, Naman has a proven track record of developing automated systems, optimizing AI models, and leading impactful technology projects. With skills in Python, Java, C++, TensorFlow, AWS, and more, he excels in creating robust applications and dynamic web solutions. Naman is passionate about leveraging technology to drive innovation and is seeking full-time opportunities as a Machine Learning Engineer or Software Development Engineer." />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/IMG_3571.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Naman Raghuvanshi</span>
+          <br />
+          I'm a Software and Machine Learning Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profilepic.png"
+              alt="Profile Image"
+              width="450"
+              height="450"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Welcome to Naman Raghuvanshi's professional portfolio. I am a Computer Science Engineer with a Master of Science from Penn State University. Specializing in software development, machine learning, and artificial intelligence, I have extensive experience in developing automated systems, optimizing AI models, and leading innovative tech projects. Skilled in Python, Java, C++, TensorFlow, AWS, and more. Explore my work, projects, and achievements in the world of AI, ML, IoT, and software development.
+            </p>
+            <p class="about-wrapper__info-text">
+              Founded two successful startups funded by the Indian Government. Established AIMC, an AI/ML community with over 5,000 students from top engineering colleges in India, including IITs. Participated in more than 20 hackathons and competitions, including the Smart India Hackathon, Robotryst, and many more.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="assets/Naman_Raghuvanshi_Resume_.pdf" class="cta-btn cta-btn--resume" target="_blank" rel="noopener noreferrer">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Cervical Fracture Detection</h3>
+              <p class="project-wrapper__text-info">
+                We utilize a dataset of cervical spine CT scans provided by the Radiological Society of North America (RSNA). This dataset comprises 3,000 studies of individual patients, used collectively for training and testing. Among these, 83 studies include segmentation data, and an additional number of studies contain bounding box coordinate data. The dataset is divided into 90% for training and 10% for validation. We employ EfficientNetV2 to learn the segmentation tasks and the YOLOv5 model to detect fractures and draw bounding boxes around the fracture areas.
+              </p>
+              <div class="project-wrapper__text-btns">
+                
+                <a href="https://github.com/naman2716" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Self Driving Car with CARLA</h3>
+              <p class="project-wrapper__text-info"> Autonomous driving technology stands at the forefront of revolutionizing the automotive industry, offering the potential to significantly enhance safety, reduce traffic congestion, and provide increased mobility to individuals. One of the most promising approaches to achieving fully autonomous driving capabilities is Deep Reinforcement Learning (DRL), which enables vehicles to learn and adapt to complex and dynamic environments. This project aims to develop an advanced autonomous driving system leveraging DRL techniques, empowering vehicles to make real-time decisions and navigate safely and efficiently. By harnessing the power of DRL, we seek to create a robust system capable of addressing the challenges posed by real-world driving scenarios, ultimately contributing to the broader adoption of autonomous driving technology.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/naman2716" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image center-image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/m1_comp.gif"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1200"
+                    height="800"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Distributed File Management System using Blockchain</h3>
+              <p class="project-wrapper__text-info">
+                The Distributed File Management System uses blockchain technology as a secure and decentralized database to manage and store files, addressing issues like data tampering and unauthorized access. It employs a reverse tree structure for data integrity and comprises servers, nodes, and access points for robust storage and transfer. Built from scratch with custom blockchain architecture and a mixed cipher encryption protocol, the system ensures high data security and efficient connections over a private network. Future plans include supporting more file types, developing a user interface, and creating a mobile version, showcasing blockchain's potential in distributed file management.
+              </p>
+              <div class="project-wrapper__text-btns">
+
+                <a href="https://github.com/naman2716" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project3.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="900"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Ventures</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Cathode Softwares</h3>
+              <p class="project-wrapper__text-info">
+                In 2021, I founded Cathode Software with the vision of addressing the evolving demands of the digital landscape through innovative and customized software solutions. Leveraging my extensive expertise and industry insights, I aimed to create a company that could deliver high-quality web development, mobile applications, and software integration services tailored to the unique needs of each client. At Cathode Software, we prioritize a customer-centric approach, fostering long-term partnerships through open communication, collaboration, and transparency. Our commitment to excellence has enabled us to successfully deliver over 10 projects across various industries, including healthcare, fintech, and services, consistently meeting and exceeding our clients' expectations.              </p>
+              <div class="project-wrapper__text-btns">
+                
+                <a href="https://cathodesoftwares.com/" target="_blank" class="cta-btn text-color-main"
+                  >Visit Website</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/cathode-p1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">All India ML/AI Community</h3>
+              <p class="project-wrapper__text-info"> 
+                In March 2020, I founded the All India AI/ML Community with the goal of providing world-class opportunities in artificial intelligence and machine learning. By engaging companies, universities, professors, thought leaders, and students from around the globe, the community focuses on offering live projects, research work, internships, and live data projects. Additionally, we organize guest lectures by industry leaders and professors, and provide funding and support through mentorship, sponsored competitions, scholarships, and financial backing for innovative projects. As of June 29, 2020, the community has reached over 5000 students with chapters in prestigious colleges such IIT, NSIT, DTU, Thpar, VIT etc.              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://www.facebook.com/aiml.masters/" target="_blank" class="cta-btn text-color-main"
+                  >Visit Website</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image center-image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/image.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1200"
+                    height="800"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Icos Rentals</h3>
+              <p class="project-wrapper__text-info">
+                In 2018, I founded Icos Rentals with a mission to revolutionize urban transportation and simplify city commuting. Icos Rentals is the go-to destination for convenient and eco-friendly scooter rentals, offering an efficient and enjoyable way to navigate bustling city streets. Our fleet of modern, well-maintained scooters caters to the diverse needs of urban travelers, whether they are daily commuters, tourists exploring a new city, or individuals seeking a fun and eco-conscious mode of transport. Supported by a 1 Million INR grant from the Government of India's StartUp India Initiative, Icos Rentals stands at the forefront of sustainable urban mobility solutions.              </p>
+              
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/icos.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="900"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Feel free to reach out to me!</p>
+          <a href="mailto:namanr.co.17@gmail.com" target="_blank" class="cta-btn cta-btn--resume">Email Me</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          
+          <a
+            href="https://www.instagram.com/naman.raghuvanshi.165/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          
+          <a
+            href="https://www.linkedin.com/in/naman2716/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/naman2716"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - 
+          <a
+            href="https://github.com/naman2716"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Naman Raghuvanshi</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
